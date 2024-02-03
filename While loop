@@ -1,0 +1,8 @@
+let gameNum = 30;
+let userNum= prompt("Guess the game number");
+
+while(userNum !=gameNum){
+     userNum =prompt("you entered wrong number.guess the correct num");
+}
+
+console.log("congratulation you enterted correct num");
